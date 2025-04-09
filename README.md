@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# 🎮 Infinity Leap
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🚀 Project Description
 
-## Get started
+**Infinity Leap** is a fun mobile game developed with Augmented Reality (AR) technology.  
+A ball remains stationary on the screen and jumps every time you tap it, then falls down due to gravity.  
+Your goal is to tap the ball as many times as possible without letting it hit the ground!  
+The longer you keep it in the air, the more points you earn.  
+**Have fun!**
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🌐 Live Website
 
-2. Start the app
+🔗 [Visit the Infinity Leap Website](https://infinityleap.github.io/)
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📄 Project Documents
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📚 [View Project Documents](https://drive.google.com/drive/folders/1442bOAwELy1bL8ves91wUJxvEzeWeMX9?usp=sharing)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🎥 Demo Video
 
-When you're ready, run:
+📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🗂️ Project Management (Trello)
 
-## Learn more
+📌 [Check Out Our Trello Board](https://trello.com/invite/b/67d7f2344a8b5bc5b85a2a2b/ATTIeca7aa05fb659dc3f2977034b5b52b85F58340BE/guncel-konular-infinity-leap)
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🛠️ Technologies Used
 
-## Join the community
+- React Native  
+- JavaScript  
+- Augmented Reality (AR) Libraries  
+- Mobile Platform Support (Android & iOS)
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 💡 Features
+
+- Real-time ball bounce mechanics  
+- Scoring system  
+- Restart option when the ball falls  
+- Simple and fun user interface  
+- AR-powered interaction with the real world
+
+---
+
+## 📱 How It Works
+
+1. Launch the app.  
+2. Tap the ball on the screen.  
+3. The ball jumps with each tap.  
+4. Tap again before it falls to keep it in the air.  
+5. Each successful tap increases your score.  
+6. If the ball hits the ground, the game ends and a restart option appears.
+
+---
+
+**Thank You!** 🎉  
+We hope you have a great time playing!
