@@ -20,6 +20,8 @@ Visit the website to learn more about the Infinity Leap project.
 
 ## 📄 Project Documents
 
+All technical and design documents related to the project can be found here.
+
 📚 [View Project Documents](https://drive.google.com/drive/folders/1442bOAwELy1bL8ves91wUJxvEzeWeMX9?usp=sharing)
 
 ---
