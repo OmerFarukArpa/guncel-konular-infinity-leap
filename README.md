@@ -30,7 +30,7 @@ The longer you keep it in the air, the more points you earn.
 
 ## 🗂️ Project Management (Trello)
 
-📌 [Check Out Our Trello Board](https://trello.com/invite/b/67d7f2344a8b5bc5b85a2a2b/ATTIeca7aa05fb659dc3f2977034b5b52b85F58340BE/guncel-konular-infinity-leap)
+📌 [Check Out Our Trello Board](https://trello.com/b/BTl2sjh5)
 
 ---
 
