@@ -12,6 +12,8 @@ The longer you keep it in the air, the more points you earn.
 
 ## 🌐 Live Website
 
+Visit the website to learn more about the Infinity Leap project.
+
 🔗 [Visit the Infinity Leap Website](https://infinityleap.github.io/)
 
 ---
@@ -24,11 +26,15 @@ The longer you keep it in the air, the more points you earn.
 
 ## 🎥 Demo Video
 
+Watch the first prototype demo of the Infinity Leap game in action.
+
 📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
 
 ---
 
 ## 🗂️ Project Management (Trello)
+
+Track our development progress, tasks, and ideas on our project’s Trello board.
 
 📌 [Check Out Our Trello Board](https://trello.com/b/BTl2sjh5)
 
