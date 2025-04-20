@@ -10,6 +10,18 @@ The longer you keep it in the air, the more points you earn.
 
 ---
 
+## Project Owners
+
+- **Ömer Faruk Arpa** (Project Leader)  
+  First email address: [210541003@firat.edu.tr](mailto:210541003@firat.edu.tr)  
+  Second email address: [arpaomer03@gmail.com](mailto:arpaomer03@gmail.com)
+
+- **Mehmet Vural**  
+  First email address: [200541055@firat.edu.tr](mailto:200541055@firat.edu.tr)  
+  Second email address: [mehmetvural1043@gmail.com](mailto:mehmetvural1043@gmail.com)
+
+---
+
 ## 🌐 Live Website
 
 Visit the website to learn more about the Infinity Leap project.
