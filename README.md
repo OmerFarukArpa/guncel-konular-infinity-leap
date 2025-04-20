@@ -89,6 +89,8 @@ Watch the first prototype demo of the Infinity Leap game in action.
 
 ---
 
+## 💾 Installation of the Project
+
 Follow the steps below to set up and run the project.
 
 ⚠️ Important! To use this application, your device must support Augmented Reality (AR). If your device does not support AR, the application will not function properly.
