@@ -89,5 +89,64 @@ Watch the first prototype demo of the Infinity Leap game in action.
 
 ---
 
+Follow the steps below to set up and run the project.
+
+⚠️ Important! To use this application, your device must support Augmented Reality (AR). If your device does not support AR, the application will not function properly.
+
+💻 Installation for Windows Users
+Open the command prompt and navigate to the directory where you want to clone the project:
+
+```bash
+cd C:\Users\YourName\Documents
+```
+
+Clone the project from GitHub:
+
+```bash
+git clone [https://github.com/username/projectname.git](https://github.com/OmerFarukArpa/guncel-konular-infinity-leap.git)
+```
+
+Navigate to the project directory:
+```bash
+cd projectname
+```
+
+Install the necessary dependencies:
+```bash
+npm install
+```
+
+Scan the QR code displayed in the terminal with the Expo Go app on your phone to launch the game.
+
+🍏 Installation for macOS (iOS) Users
+Open the terminal and navigate to the directory where you want to clone the project:
+```bash
+cd ~/Documents
+```
+
+Clone the project from GitHub:
+```bash
+git clone [https://github.com/username/projectname.git](https://github.com/OmerFarukArpa/guncel-konular-infinity-leap.git)
+```
+
+Navigate to the project directory:
+```bash
+cd projectname
+```
+
+Install the necessary dependencies:
+```bash
+npm install
+```
+
+Start the project:
+```bash
+expo start
+```
+
+Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
+
+---
+
 **Thank You!** 🎉  
 We hope you have a great time playing!
