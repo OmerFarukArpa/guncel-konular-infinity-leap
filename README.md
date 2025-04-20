@@ -31,19 +31,19 @@ All technical and design documents related to the project can be found here.
 
 ---
 
-## 🎥 Demo Video
-
-Watch the first prototype demo of the Infinity Leap game in action.
-
-📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
-
----
-
 ## 🗂️ Project Management (Trello)
 
 Track our development progress, tasks, and ideas on our project’s Trello board.
 
 📌 [Check Out Our Trello Board](https://trello.com/b/BTl2sjh5)
+
+---
+
+## 🎥 Demo Video
+
+Watch the first prototype demo of the Infinity Leap game in action.
+
+📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
 
 ---
 
