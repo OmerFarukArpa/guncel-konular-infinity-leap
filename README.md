@@ -17,8 +17,9 @@ Visit the website to learn more about the Infinity Leap project.
 🔗 [Visit the Infinity Leap Website](https://infinityleap.github.io/)
 
 You can log in using the administrator credentials:
-Username: admin
-Password: 3496
+
+**Username:** `admin`  
+**Password:** `3496`
 
 ---
 
