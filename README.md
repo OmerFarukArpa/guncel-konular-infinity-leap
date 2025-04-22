@@ -158,5 +158,62 @@ You can download the application by clicking the link below:
 
 ---
 
+## Weekly Plan and Steps
+
+Week 1: Drawing the Project Roadmap
+Objective: Determining project requirements.
+Tasks:A meeting will be held to outline the foundations and roadmap of the project.
+
+Week 2: Preparing Documentation
+Objective: Preparing reference documents to ensure proper progress in the project.
+Tasks:Preparing diagrams:Use case diagram,Gantt chart,ER diagram,
+Writing other documents:SMART analysis,SWOT analysisGeneral overview of the project,Detailed SWOT analysis compared to competitors
+
+Week 3: Project Kickoff and Tool Installations
+Objective: Setting up the necessary tools for the project and creating the basic project structure.
+Tasks:Installing React Native and ARKit/ARCore,Integrating a 3D library like Three.js.,Structuring the project (Main screen, game start button).,Installing required dependencies and configuring the environment.
+
+Week 4: Creating the 3D Ball Model
+Objective: Designing and placing the 3D ball model on the screen.
+Tasks:Creating the 3D ball model with Three.js or a similar library.Integrating the model into the React Native application.Properly placing the ball in the AR environment.
+
+Week 5: Developing the Jump and Fall Mechanism
+Objective: Implementing the jump and fall mechanism when the ball is tapped.
+Tasks:Handling the tap event on the ball.Creating jump and fall animations to simulate the ball's physical movement.Determining the jump force and height.
+
+Week 6: Scoring System and UI Design
+Objective: Integrating the scoring system and designing the user interface.
+Tasks:Increasing the score after each successful jump.Displaying the score on the game screen.Designing a simple UI (Main screen, score screen, restart button).
+
+Week 7: Creating the Website
+Objective: Developing a website to promote the mobile application.
+Tasks:Including a login screen.Ensuring the website allows even a first-time visitor to navigate and understand the app.
+
+Week 8: Delivering the First Prototype
+Objective: Delivering the working first prototype via a GitHub repository link.
+Tasks:Recording a video of the working first prototype.Compiling all documentation and submitting it on GitHub.Sharing the Trello account and website link.
+
+Week 9: Implementing Game Start and End Mechanisms
+Objective: Adding mechanisms to start and end the game.
+Tasks:Enabling the functionality of the start button.Adding an end game condition when the ball falls and displaying a restart button.Showing the score at the end of the game.
+
+Week 10: Integrating AR Environment and Testing
+Objective: Integrating the AR environment and performing in-game testing.
+Tasks:Placing the ball in the real-world environment using ARKit or ARCore.Testing whether the AR environment works correctly.Testing user interaction and game flow.
+
+Week 11: User Testing and Improvements
+Objective: Conducting general testing of the project and making improvements based on user feedback.
+Tasks:Conducting user testing.Fixing performance issues and bugs.Implementing improvements based on user feedback.
+
+Week 12: Final Status Testing and Preparing for Release
+Objective: Performing final checks and preparing the project for release.
+Tasks:Conducting final tests.Debugging the application.Preparing the app for release.
+
+Week 13: Project Submission
+Objective: Finalizing the project and submitting it with all components on the GitHub repository.
+Tasks:Adding the final version of the project to the repository for download.Including all additions made during the initial submission in this final delivery.
+
+---
+
 **Thank You!** 🎉  
 We hope you have a great time playing!
