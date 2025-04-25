@@ -150,7 +150,7 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 
 ---
 
-## 📦 Downloadable Version of the Project
+## 📦 Downloadable Version of the Project (APK)
 
 You can download the application by clicking the link below:
 
