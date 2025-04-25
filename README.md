@@ -152,6 +152,8 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 
 ## 📦 Downloadable Version of the Project (APK)
 
+⚠️ Since this is an augmented reality project, please download and run it on devices that support augmented reality.
+
 You can download the application by clicking the link below:
 
 🔗 [Download the Project](https://drive.google.com/file/d/1Wr8SRK19TxLCIOM9JcWyR99CtPvIpBdQ/view?usp=sharing)
