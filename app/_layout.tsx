@@ -1,39 +1,127 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
+import React, { useState, useEffect, useCallback, Suspense } from 'react';
+import { View, StyleSheet, Text, ActivityIndicator } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
-import { StatusBar } from 'expo-status-bar';
-import { useEffect } from 'react';
-import 'react-native-reanimated';
+import CustomSplashScreen from '../assets/images/launch/splash';
+import MainMenu from '../components/MainMenu';
+import BouncingBall from '../components/BouncingBall';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
+// Oyun yükleme ekranı
+const GameLoading = () => (
+  <View style={styles.loadingContainer}>
+    <ActivityIndicator size="large" color="#FF6700" />
+    <Text style={styles.loadingText}>Oyun Yükleniyor...</Text>
+  </View>
+);
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
-SplashScreen.preventAutoHideAsync();
+// Splash ekranının gösterilmesini sağla
+SplashScreen.preventAutoHideAsync().catch(e => console.log("SplashScreen error:", e));
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
+  const [appIsReady, setAppIsReady] = useState(false);
+  const [showSplash, setShowSplash] = useState(true);
+  const [showMenu, setShowMenu] = useState(true);
+  const [gameLoading, setGameLoading] = useState(false);
 
   useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
+    
+    async function prepare() {
+      try {
+        // 3D kaynakları önbelleğe almak için ön yükleme yapılabilir
+        // Uygulamanın yüklenmesi gereken şeyler burada yapılabilir
+        await new Promise(resolve => setTimeout(resolve, 1000)); 
+      } catch (e) {
+        console.warn("Hazırlık hatası:", e);
+      } finally {
+        console.log("Uygulama hazır");
+        setAppIsReady(true);
+      }
     }
-  }, [loaded]);
 
-  if (!loaded) {
-    return null;
+    prepare();
+  }, []);
+
+  useEffect(() => {
+    if (appIsReady) {
+      // Expo splash screen'i gizle
+      const hideSplash = async () => {
+        try {
+          console.log("Expo splash screen gizleniyor");
+          await SplashScreen.hideAsync();
+        } catch (e) {
+          console.warn("SplashScreen.hideAsync hatası:", e);
+        }
+      };
+      
+      hideSplash();
+    }
+  }, [appIsReady]);
+
+  // Özel splash screen'in kapanma fonksiyonu
+  const handleSplashFinish = useCallback(() => {
+    console.log("handleSplashFinish çağrıldı");
+    setShowSplash(false);
+  }, []);
+
+  // Oyunu başlatma
+  const handleStartGame = () => {
+    // Önce yükleme ekranını göster
+    setGameLoading(true);
+    
+    // Kısa bir gecikmeden sonra oyunu başlat - 3D oyun başlatmadan önce UI'ın render olması için
+    setTimeout(() => {
+      setShowMenu(false);
+      setGameLoading(false);
+    }, 300);
+  };
+
+  if (!appIsReady) {
+    return (
+      <View style={styles.loadingContainer}>
+        <Text style={styles.loadingText}>Yükleniyor...</Text>
+      </View>
+    );
+  }
+
+  if (showSplash) {
+    return <CustomSplashScreen onFinish={handleSplashFinish} />;
+  }
+
+  if (showMenu) {
+    return (
+      <>
+        <MainMenu onStartGame={handleStartGame} />
+        {gameLoading && <GameLoading />}
+      </>
+    );
   }
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <View style={styles.container}>
+      <BouncingBall />
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000',
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 100,
+  },
+  loadingText: {
+    color: '#333',
+    fontSize: 18,
+    marginTop: 10,
+  }
+}); 
