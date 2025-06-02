@@ -1,21 +1,22 @@
 {
   "expo": {
-    "name": "ar_example",
-    "slug": "ar_example",
+    "name": "Infinity Leap",
+    "slug": "ArProject",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/launch/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/launch/icon.webp",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arproject.app"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bb10b90d-c676-495f-a5fd-072282131334"
+      }
     }
   }
 }
