@@ -57,6 +57,16 @@ Watch the first prototype demo of the Infinity Leap game in action.
 
 📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
 
+Watch the last prototype video of the Infinity Leap game in action.
+
+📺 [Watch the Last Prototype video(MVP)](https://youtube.com/shorts/1QmzDECa08c?feature=share)
+
+---
+
+## 🎥 Promotional Video
+
+📺 [Watch the Promotional Video](https://youtu.be/AeHHuVrzFSo)
+
 ---
 
 ## 🛠️ Technologies Used
