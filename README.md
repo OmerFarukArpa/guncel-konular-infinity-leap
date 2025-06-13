@@ -162,7 +162,9 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 
 ## 📦 Downloadable Version of the Project (APK)
 
-⚠️ After clicking the 'OYNA' button, you can play by tapping on the ball. Have fun!
+⚠️ The application may take some time to download. Please wait. 
+
+🎉 After clicking the 'OYNA' button, you can play by tapping on the ball. Have fun!
 
 You can download the application by clicking the link below:
 
