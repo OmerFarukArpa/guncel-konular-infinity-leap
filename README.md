@@ -134,7 +134,7 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 
 ---
 
-## 🖥️ Frequently Asked Questions (FAQ) - Infinity Leap
+## 🖥️ Frequently Asked Questions (FAQ) 
 
 Below are answers to some common questions you may have while playing Infinity Leap.
 
