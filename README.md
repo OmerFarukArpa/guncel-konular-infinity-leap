@@ -139,33 +139,41 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 Below are answers to some common questions you may have while playing Infinity Leap.
 
 ❓ Q1: I opened the app, but it doesn’t work; it shows a black screen or gives an error. Why?
+
 🕵️‍♂️ A: This usually happens because your device does not support Augmented Reality (AR) technology. Infinity Leap requires AR to place the virtual ball in the real world. Please verify if your phone is AR-compatible.
 
 ❓ Q2: What is the goal of the game, and how do I play?
+
 🕵️‍♂️ A: The goal is simple: Keep the ball in the air without letting it fall and score as many points as possible!
 How to play:
 
-1.Open the app and allow camera access.
-2.Tap the 3D ball that appears on the screen.
-3.The ball will bounce and start falling due to gravity.
-4.Tap the ball before it hits the ground to keep it bouncing. Each tap earns you points!
+1. Open the app and allow camera access.
+2. Tap the 3D ball that appears on the screen.
+3. The ball will bounce and start falling due to gravity.
+4. Tap the ball before it hits the ground to keep it bouncing. Each tap earns you points!
 
 ❓ Q3: How does scoring work?
+
 🕵️‍♂️ A: Every successful tap on the ball before it hits the ground gives you 1 point. The longer you keep bouncing the ball, the higher your score!
 
 ❓ Q4: How does the game end, and how can I restart?
+
 🕵️‍♂️ A: The game ends when the ball hits the ground, showing your final score. Press the "Restart" button to play again.
 
 ❓ Q5: The game feels slow or laggy. What can I do?
+
 🕵️‍♂️ A: AR uses a lot of your phone’s processor and camera, which can cause lag.
+
 -Close background apps.
 -Ensure the play area is well-lit.
 -Check that your phone isn’t overheating.
 
 ❓ Q6: Does this game drain the battery quickly?
+
 🕵️‍♂️ A: Yes, AR apps consume more battery because they continuously use the camera, sensors, and processor.
 
 ❓ Q7: Do I need an internet connection to play?
+
 🕵️‍♂️ A: No. Once downloaded, the game runs fully offline.
 
 ---
