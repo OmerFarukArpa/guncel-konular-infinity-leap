@@ -113,11 +113,13 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 
 ### 📱 In-App Screenshots
 
-![Login Screen](images/image_1.jpeg)
-![Start screen](images/image_2.jpeg)
-![Game Play Screen](images/image_3.jpeg)
-![Game Play Screen](images/image_4.jpeg)
-![Restart Screen](images/image_5.jpeg)
+<p float="left">
+  <img src="images/image_1.jpeg" width="150" style="margin-right:10px; margin-bottom:10px" />
+  <img src="images/image_2.jpeg" width="150" style="margin-right:10px; margin-bottom:10px" />
+  <img src="images/image_3.jpeg" width="150" style="margin-right:10px; margin-bottom:10px" />
+  <img src="images/image_4.jpeg" width="150" style="margin-right:10px; margin-bottom:10px" />
+  <img src="images/image_5.jpeg" width="150" style="margin-right:10px; margin-bottom:10px" />
+</p>
 
 ---
 
