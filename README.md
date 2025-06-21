@@ -30,8 +30,8 @@ Visit the website to learn more about the Infinity Leap project.
 
 You can log in using the administrator credentials:
 
-**Username:** `admin`  
-**Password:** `3496`
+⚠️**Username:** `admin`  
+⚠️**Password:** `3496`
 
 ---
 
