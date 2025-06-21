@@ -10,6 +10,23 @@ The longer you keep it in the air, the more points you earn.
 
 ---
 
+## 🎯 Project Purpose and Target Audience
+
+This project aims to enhance the in-flight experience for children aged 6 to 9 by providing an engaging and enjoyable application.
+Although the primary target audience is children between the ages of 6 and 9, the application is designed to be accessible and enjoyable for users of all ages.
+
+---
+
+## 🛠️ Technologies Used
+
+- React Native
+- Expo
+- TypeScript 
+- Augmented Reality (AR) Libraries  
+- Mobile Platform Support (Android & iOS)
+
+---
+
 ## Project Owners
 
 - **Ömer Faruk Arpa** (Project Leader)  
@@ -19,83 +36,6 @@ The longer you keep it in the air, the more points you earn.
 - **Mehmet Vural**  
   First email address: [200541055@firat.edu.tr](mailto:200541055@firat.edu.tr)  
   Second email address: [mehmetvural1043@gmail.com](mailto:mehmetvural1043@gmail.com)
-
----
-
-## 🌐 Live Website
-
-Visit the website to learn more about the Infinity Leap project.
-
-🔗 [Visit the Infinity Leap Website](https://infinityleap.github.io/)
-
-You can log in using the administrator credentials:
-
-⚠️**Username:** `admin`  
-⚠️**Password:** `3496`
-
----
-
-## 📄 Project Documents
-
-All technical and design documents related to the project can be found here.
-
-📚 [View Project Documents](https://drive.google.com/drive/folders/1442bOAwELy1bL8ves91wUJxvEzeWeMX9?usp=sharing)
-
----
-
-## 🗂️ Project Management (Trello)
-
-Track our development progress, tasks, and ideas on our project’s Trello board.
-
-📌 [Check Out Our Trello Board](https://trello.com/b/BTl2sjh5)
-
----
-
-## 🎥 Demo Video
-
-Watch the first prototype demo of the Infinity Leap game in action.
-
-📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
-
-Watch the last prototype video of the Infinity Leap game in action.
-
-📺 [Watch the Last Prototype video(MVP)](https://youtube.com/shorts/1QmzDECa08c?feature=share)
-
----
-
-## 🎥 Promotional Video
-
-📺 [Watch the Promotional Video](https://youtu.be/AeHHuVrzFSo)
-
----
-
-## 🛠️ Technologies Used
-
-- React Native  
-- JavaScript  
-- Augmented Reality (AR) Libraries  
-- Mobile Platform Support (Android & iOS)
-
----
-
-## 💡 Features
-
-- Real-time ball bounce mechanics  
-- Scoring system  
-- Restart option when the ball falls  
-- Simple and fun user interface  
-- AR-powered interaction with the real world
-
----
-
-## 📱 How It Works
-
-1. Launch the app.  
-2. Tap the ball on the screen.  
-3. The ball jumps with each tap.  
-4. Tap again before it falls to keep it in the air.  
-5. Each successful tap increases your score.  
-6. If the ball hits the ground, the game ends and a restart option appears.
 
 ---
 
@@ -160,15 +100,130 @@ Open the Expo Go app on your iPhone, scan the QR code, and enjoy the game.
 
 ---
 
+## 📱 How It Works
+
+1. Launch the app.  
+2. Tap the ball on the screen.  
+3. The ball jumps with each tap.  
+4. Tap again before it falls to keep it in the air.  
+5. Each successful tap increases your score.  
+6. If the ball hits the ground, the game ends and a restart option appears.
+
+---
+
+### 📱 In-App Screenshots
+
+![Login Screen](images/image_1.jpeg)
+![Start screen](images/image_2.jpeg)
+![Game Play Screen](images/image_3.jpeg)
+![Game Play Screen](images/image_4.jpeg)
+![Restart Screen](images/image_5.jpeg)
+
+---
+
+## 💡 Features
+
+- Real-time ball bounce mechanics  
+- Scoring system  
+- Restart option when the ball falls  
+- Simple and fun user interface  
+- AR-powered interaction with the real world
+- Texts that motivate the user
+
+---
+
+## 🖥️ Frequently Asked Questions (FAQ) - Infinity Leap
+
+Below are answers to some common questions you may have while playing Infinity Leap.
+
+❓ Q1: I opened the app, but it doesn’t work; it shows a black screen or gives an error. Why?
+🕵️‍♂️ A: This usually happens because your device does not support Augmented Reality (AR) technology. Infinity Leap requires AR to place the virtual ball in the real world. Please verify if your phone is AR-compatible.
+
+❓ Q2: What is the goal of the game, and how do I play?
+🕵️‍♂️ A: The goal is simple: Keep the ball in the air without letting it fall and score as many points as possible!
+How to play:
+
+1.Open the app and allow camera access.
+2.Tap the 3D ball that appears on the screen.
+3.The ball will bounce and start falling due to gravity.
+4.Tap the ball before it hits the ground to keep it bouncing. Each tap earns you points!
+
+❓ Q3: How does scoring work?
+🕵️‍♂️ A: Every successful tap on the ball before it hits the ground gives you 1 point. The longer you keep bouncing the ball, the higher your score!
+
+❓ Q4: How does the game end, and how can I restart?
+🕵️‍♂️ A: The game ends when the ball hits the ground, showing your final score. Press the "Restart" button to play again.
+
+❓ Q5: The game feels slow or laggy. What can I do?
+🕵️‍♂️ A: AR uses a lot of your phone’s processor and camera, which can cause lag.
+-Close background apps.
+-Ensure the play area is well-lit.
+-Check that your phone isn’t overheating.
+
+❓ Q6: Does this game drain the battery quickly?
+🕵️‍♂️ A: Yes, AR apps consume more battery because they continuously use the camera, sensors, and processor.
+
+❓ Q7: Do I need an internet connection to play?
+🕵️‍♂️ A: No. Once downloaded, the game runs fully offline.
+
+---
+
 ## 📦 Downloadable Version of the Project (APK)
 
 ⚠️ The application may take some time to download. Please wait. 
 
 🎉 After clicking the 'OYNA' button, you can play by tapping on the ball. Have fun!
 
-You can download the application by clicking the link below:
+You can download the application by clicking the link below(Tested working APK file):
 
 🔗 [Download the Project](https://drive.google.com/file/d/1Wr8SRK19TxLCIOM9JcWyR99CtPvIpBdQ/view?usp=sharing)
+
+---
+
+## 🌐 Live Website
+
+Visit the website to learn more about the Infinity Leap project.
+
+🔗 [Visit the Infinity Leap Website](https://infinityleap.github.io/)
+
+You can log in using the administrator credentials:
+
+⚠️**Username:** `admin`  
+⚠️**Password:** `3496`
+
+---
+
+## 📄 Project Documents 
+
+All technical and design documents related to the project can be found here.
+
+📚 [View Project Documents](https://drive.google.com/drive/folders/1442bOAwELy1bL8ves91wUJxvEzeWeMX9?usp=sharing)
+
+---
+
+## 🗂️ Project Management (Trello)
+
+Track our development progress, tasks, and ideas on our project’s Trello board.
+
+📌 [Check Out Our Trello Board](https://trello.com/b/BTl2sjh5)
+
+---
+
+## 🎥 Demo Video
+
+Watch the first prototype demo of the Infinity Leap game in action.
+
+📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
+
+Watch the last prototype video of the Infinity Leap game in action.
+
+📺 [Watch the Last Prototype video(MVP)](https://youtube.com/shorts/1QmzDECa08c?feature=share)
+
+---
+
+## 🎥 Promotional Video
+
+📺 [Watch the Promotional Video](https://youtu.be/AeHHuVrzFSo)
 
 ---
 
