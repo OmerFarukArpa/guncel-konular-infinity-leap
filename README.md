@@ -164,9 +164,9 @@ How to play:
 
 🕵️‍♂️ A: AR uses a lot of your phone’s processor and camera, which can cause lag.
 
--Close background apps.
--Ensure the play area is well-lit.
--Check that your phone isn’t overheating.
+- Close background apps.
+- Ensure the play area is well-lit.
+- Check that your phone isn’t overheating.
 
 ❓ Q6: Does this game drain the battery quickly?
 
