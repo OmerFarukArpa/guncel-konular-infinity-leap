@@ -221,11 +221,11 @@ Track our development progress, tasks, and ideas on our project’s Trello board
 
 ## 🎥 Demo Video
 
-Watch the first prototype demo of the Infinity Leap game in action.
+Watch the first prototype demo of the Infinity Leap game in action. (April 5, 2025)
 
 📺 [Watch the First Prototype Demo](https://www.youtube.com/watch?v=_PaiYGGoQps)
 
-Watch the last prototype video of the Infinity Leap game in action.
+Watch the last prototype video of the Infinity Leap game in action. (April 28, 2025)
 
 📺 [Watch the Last Prototype video(MVP)](https://youtube.com/shorts/1QmzDECa08c?feature=share)
 
